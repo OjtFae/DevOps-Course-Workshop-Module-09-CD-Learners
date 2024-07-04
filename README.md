@@ -30,7 +30,7 @@ Whilst it is helpful to be able to experiment locally, getting the app running i
     You can use `dotnet nuget list source` to see what package sources NuGet is using.
 2. From the `DotnetTemplate.Web` folder, run `npm install` (first time only) and then `npm run build`. This will install dependencies and then build the TypeScript code.
     * If you are on Windows and see errors during installation containing "gyp ERR", you may need to first run `npm install --global windows-build-tools` (and restart your terminal).
-    * `npm ci` is another way of installing dependencies that will strictly follow the versions listed in package-lock.json. So this can be used for completely reproducible builds.
+    * `npm ci` is another way of installing dependencies that will strictly follow the versions listed in package-lock.json. So this can be used for completely reproducible builds. 
 
 ### Test
 
